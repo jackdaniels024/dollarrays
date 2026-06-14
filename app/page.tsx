@@ -14,7 +14,7 @@ export default function DigitsPage() {
   const trading = useDigitsTrading({ ws, isConnected, isExhausted, isAuthenticated: !!auth.wsUrl, onAuthWSFailed: logout });
 
   // ==========================================
-  // DOLLARRAYSFX AUTO-PRINTER CORE CONTROLS
+  // DOLLARRAYSFX AUTO-PRINTER CORE CONTROLS LIVE
   // ==========================================
   const [isBotRunning, setIsBotRunning] = useState<boolean>(false);
   const [currentStake, setCurrentStake] = useState<number>(1.00);
